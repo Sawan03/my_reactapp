@@ -1,0 +1,87 @@
+.customer-overview-section {
+  padding: 64px 144px;
+  text-align: left;
+}
+
+.customer-overview-heading {
+  font-family: Inter, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.customer-overview-paragraph {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: Center;
+  margin-bottom: 40px;
+}
+
+.customer-overview-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap; /* Ensure cards wrap to the next line */
+}
+
+.customer-overview-card {
+  width: calc(33.33% - 10.66px); /* Ensure three cards in a row */
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 366px; /* Set the height of each card */
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-text-button-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.card-text {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card-button {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #4CAF50;
+  border: none;
+  cursor: pointer;
+ 
+}

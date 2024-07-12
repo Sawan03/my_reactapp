@@ -1,0 +1,117 @@
+.clients-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .clients-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #4D4D4D;
+  }
+  
+  .clients-paragraph {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #717171;
+  }
+  
+  .clients-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Fill width */
+    max-width: 1152px; /* Set max width */
+    gap: 0; /* No gap */
+    margin: 0 auto; /* Center align the container */
+  }
+  
+  .client-image {
+    width: 40px; /* Set width */
+    height: 40px; /* Set height */
+    object-fit: contain;
+    opacity: 1; /* Set initial opacity to 0 */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    margin-top: 4px; /* Align with top position */
+    margin-left: 4px; /* Align with left position */
+  }
+  
+  .client-image:hover {
+    transform: scale(1.1);
+    opacity: 1; /* Change opacity to 1 on hover */
+  }
+  
+  /* Features section */
+  .features-section {
+    text-align: center;
+    padding: 50px 20px;
+    
+  }
+  
+  .features-heading {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    color: #4D4D4D;
+  }
+  
+  .features-paragraph {
+    width: 251px; /* Set width */
+    height: 60px; /* Set height */
+    gap: 8px; /* Space between paragraphs */
+    opacity: 1; /* Set opacity to 1 */
+    font-family: Inter;
+    font-size: 16px; /* Adjusted font size for the paragraph */
+    font-weight: 400; /* Adjusted font weight for the paragraph */
+    line-height: 24px; /* Adjusted line height for the paragraph */
+    text-align: center;
+    margin: 0 auto; /* Center align the paragraph */
+    color: #717171;
+  }
+  
+  .features-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Fill width */
+    max-width: 1152px; /* Set max width */
+    gap: 20px; /* Space between feature items */
+    margin: 0 auto; /* Center align the container */
+  }
+  
+  .feature-item {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .feature-image {
+    width: 65px; /* Set width */
+    height: 56px; /* Set height */
+    object-fit: contain;
+    opacity: 1; /* Set initial opacity to 0 */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    margin-bottom: 20px; /* Space below the image */
+  }
+  
+  .feature-image:hover {
+    transform: scale(1.1);
+    opacity: 1; /* Change opacity to 1 on hover */
+  }
+  
+  .feature-item-heading {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #4D4D4D;
+  }
+  
+  .feature-item-paragraph {
+    font-size: 16px; /* Adjusted font size for the paragraph */
+    font-weight: 400; /* Adjusted font weight for the paragraph */
+    line-height: 24px; /* Adjusted line height for the paragraph */
+    color: #717171;
+  }
+  

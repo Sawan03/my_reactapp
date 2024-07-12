@@ -1,0 +1,45 @@
+.navbar-brand,
+.nav-link {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.brand-text {
+  font-size: 24px; /* Adjust this value to match the height of the logo */
+  line-height: 30px; /* This should match the height of the logo */
+}
+
+.nav-link {
+  margin-right: 15px;
+}
+
+.nav-link.btn {
+  margin-left: 10px;
+}
+
+/* Override styles for Sign Up button */
+.nav-link.btn.no-hover {
+  background-color: #28a745; /* Green color */
+  border-color: #28a745; /* Green border */
+  color: #fff; /* White text */
+}
+
+.nav-link.btn.no-hover:hover,
+.nav-link.btn.no-hover:focus,
+.nav-link.btn.no-hover:active {
+  background-color: #28a745; /* Maintain green color on hover, focus, and active */
+  border-color: #28a745; /* Maintain green border on hover, focus, and active */
+  color: #fff; /* Maintain white text on hover, focus, and active */
+}

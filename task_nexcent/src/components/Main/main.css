@@ -1,0 +1,88 @@
+.main-content {
+    padding: 40px 0;
+    background-color:  #F5F7FA;
+    ;
+  }
+  
+  .hero-section {
+    margin-bottom: 40px;
+  }
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align all items to the left */
+    gap: 20px; /* Add gap between elements */
+  }
+  
+  .hero-title {
+    padding-top: 9rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 64px; /* Updated font size */
+    font-weight: 600; /* Updated font weight */
+    line-height: 76px; /* Updated line height */
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .hero-title .highlight {
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    text-align: left;
+    color: #28a745;
+  }
+  
+  .hero-description {
+    
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #717171;
+    
+  }
+  
+  .hero-image {
+    padding-top: 3rem;
+    width: 391px;
+    height: 407px;
+    gap: 0px;
+    opacity: 1px;
+    
+  }
+  .registert-btn{
+    width: Hug (128px)px;
+    height: Hug (52px)px;
+    padding: 14px 32px 14px 32px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+    background-color: #4CAF4F;
+
+  }
+  
+  .btn-success.no-hover {
+    background-color: #28a745; /* Green color */
+    border-color: #28a745; /* Green border */
+    color: #FFFFFF;
+    ; /* White text */
+  }
+  .carousel-indicators li {
+    background-color: #000; /* Adjust the color as needed */
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+  }
+  
+  
+  .btn-success.no-hover:hover,
+  .btn-success.no-hover:focus,
+  .btn-success.no-hover:active {
+    background-color: #28a745; /* Maintain green color on hover, focus, and active */
+    border-color: #28a745; /* Maintain green border on hover, focus, and active */
+    color: #fff; /* Maintain white text on hover, focus, and active */
+  }
+  

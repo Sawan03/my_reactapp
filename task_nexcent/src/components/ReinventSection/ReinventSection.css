@@ -1,0 +1,65 @@
+.reinvent-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Align items to the top */
+  padding: 20px;
+  background-color: #F5F7FA;
+  ;
+}
+
+.reinvent-text {
+  flex: 1; /* Allow text to fill available space */
+  margin-right: 20px; /* Add space between text and images */
+}
+
+.reinvent-heading {
+  margin: 0 0 5px 0; /* Adjust margin as needed */
+  font-size: 1.5rem; /* Adjust heading size */
+  font-weight: bold;
+}
+
+.reinvent-paragraph {
+  margin: 0; /* Remove default margin */
+  font-size: 1rem; /* Adjust paragraph size */
+  
+  
+}
+
+.reinvent-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-template-rows: repeat(2, 1fr); /* Two rows */
+  gap: 20px; /* Add spacing between image containers */
+}
+
+.reinvent-image-container {
+  display: flex;
+  flex-direction: row; /* Align image and text in a row */
+  align-items: center; /* Vertically center content within container */
+  width: 300px; /* Adjust width as needed */
+  height: auto; /* Adjust height as needed */
+}
+
+.reinvent-image {
+  width: 48px; /* Adjust image width */
+  height: 48px; /* Adjust image height */
+  object-fit: cover; /* Ensure images fill the container */
+  margin-right: 10px; /* Add margin between image and text content */
+}
+
+.reinvent-text-container {
+  display: flex;
+  flex-direction: column; /* Stack number and paragraph vertically */
+  align-items: flex-start; /* Align text content to the left */
+}
+
+.reinvent-number {
+  font-size: 1.2rem; /* Adjust number size */
+  font-weight: bold;
+  margin-bottom: 5px; /* Spacing between number and text */
+}
+
+.reinvent-image-text {
+  font-size: 0.8rem; /* Adjust text size */
+  color: #333; /* Adjust text color */
+}

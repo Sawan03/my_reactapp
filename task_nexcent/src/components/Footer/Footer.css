@@ -1,0 +1,149 @@
+/* Centered Top Content */
+.top-content {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.top-heading {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.demo-button {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #263238;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 20px;
+  min-width: 200px;
+}
+
+.logo-and-text {
+  display: flex;
+  align-items: left;
+}
+
+.nexcent-logo {
+  width: 43.27px; /* Updated width */
+  height: 29.67px; /* Updated height */
+  margin-right: 10px;
+  opacity: 1; /* Ensure logo is visible */
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Align text to the left */
+  margin-top: 10px;
+}
+
+.company-name {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.copyright {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-column {
+  margin-bottom: 20px;
+}
+
+.footer-column-heading {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer-column-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column-list li {
+  margin-bottom: 10px;
+}
+
+.footer-column-list a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+}
+
+.footer-column-list a:hover {
+  text-decoration: underline;
+}
+
+.stay-updated-heading {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-input {
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  flex: 1;
+}
+
+.subscribe-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
